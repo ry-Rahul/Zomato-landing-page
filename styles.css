@@ -166,7 +166,20 @@
 
 .we_offer .card img{
     width: 240px;
-    height: 150px;
+    height: 140px;
     object-fit: cover;
     object-position: center;
 }
+
+.we_offer .card h2{
+   padding:0 10px;
+   font-size: 15px;
+   font-weight: 500;
+
+}
+.we_offer .card p{
+    padding: 0px 10px 10px 10px;
+    font-size: 10px;
+    /* font-weight: 400; */
+    
+ }
