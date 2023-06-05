@@ -264,3 +264,129 @@
     padding:12px 16px;
     font-size: 14px;
 }
+
+.get__the_app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 237, 220);
+    width: 100%;
+    padding: 3rem 6rem;
+}
+
+.get__the_app .semicontainer{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.get__the_app .semicontainer .left{
+    flex:2;
+}
+
+.get__the_app .semicontainer .left img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.get__the_app .semicontainer .right{
+
+    /* this flex  property is come from parent */
+    flex:3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.right h1{
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.right p{
+    font-size: 15px;
+    color: rgb(73, 73, 73);
+}
+
+.radio_button_container{
+   display: flex;
+   /* justify-content: center; */
+   gap: 24px;
+   align-items: center;
+
+}
+
+.semicontainer .right .radio_button_container div{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   
+}
+
+.right .radio_button_container div input{
+    /* this is the size of the circle */
+    height: 15px;
+    width: 15px;
+    /* and this is for the color of circle */
+    accent-color: rgb(239,79,95);
+}
+
+.semicontainer .right .input_container{
+    display: flex;
+    gap: 8px;
+}
+
+.input_container button,
+.input_container input{
+    padding: 10px 12px; 
+
+}
+.input_container button{
+    border: none;
+    background-color: rgb(239,79,95);
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input_container input{
+    border: 1.5px solid gray;
+    outline: none;
+    border-radius: 5px;
+    flex: auto;
+}
+
+.right .download__app_container{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.right .download__app_container h1{
+    font-size:15px;
+    color: rgb(73, 73, 73);
+    
+}
+
+.download__app_container div{
+    display: flex;
+    gap: 16px;
+
+}
+.download__app_container div img{
+    width: 35%;
+}
+
+@media only screen and (max-width: 1300px){
+    .get__the_app .semicontainer .left{
+        flex:1;
+    }
+}
+
+
+
