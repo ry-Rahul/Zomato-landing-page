@@ -131,11 +131,42 @@
     }
 
     .hero__section_container{
-        heig2ht: calc(80vh-60px);
+        height: calc(80vh-60px);
     }
 
     .hero__section_title{
         font-size: 20px;
     }
 
+}
+
+.container{
+    margin: 48px auto;
+    width: 80%;
+    /* border: 2px solid red; */
+
+}
+
+.we_offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+
+}
+
+.we_offer .card{
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+
+    /* this is for rounded corner of the image */
+    overflow: hidden;
+}
+
+.we_offer .card img{
+    width: 240px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
 }
