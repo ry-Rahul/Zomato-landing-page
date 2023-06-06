@@ -496,3 +496,55 @@
 .footer_link:hover{
     color:black;
 }
+
+.social_link_container{
+    display: flex;
+    gap: 0.7rem
+}
+
+.social_link_container button{
+    background: black;
+    border:none;
+    width:25px;
+    height: 25px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social_link_container button i{
+    color:white;
+    font-size: 14px;
+
+}
+
+
+/* image logo*/
+.footer_store_logos{
+  width: 70%;
+}
+
+
+@media only screen and (max-width:900px){
+    .navigation_container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .navigation_container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width:450px) {
+
+    .footer_section1{
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .navigation_container{
+        grid-template-columns: 1fr;
+    }
+}
