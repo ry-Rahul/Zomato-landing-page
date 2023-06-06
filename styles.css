@@ -429,3 +429,43 @@
 }
 
 
+.footer{
+    width: 100%;
+    background:rgb(248,248,248);
+}
+
+.footer_section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    width: 80%;
+    margin:auto;
+}
+
+.footer_section1 img{
+    width: 120px;
+}
+
+.section1_buttonContainer{
+    display: flex;
+    gap: 16px;
+
+}
+.section1_buttonContainer button{
+    padding: 5px;
+    width: 90px;
+    border:1px solid gray;
+    background-color: transparent;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.navigation_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
